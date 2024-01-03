@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "jFNqhGpfuslQ4rdcaCLdQJqzmxJV1GwroZHPtlBsB6QfdjqxuG79U8amkcXOedFoMG7nuo6OZsC55Yigj/2h9w==",
+  "success": true,
+  "projectFilePath": "D:\\Class\\Window\\Custom_Paint - 2\\Custom_Paint\\Custom_Paint.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\controlzex\\6.0.0\\controlzex.6.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\fluent.ribbon\\10.0.4\\fluent.ribbon.10.0.4.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\fody\\6.6.4\\fody.6.6.4.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\propertychanged.fody\\4.1.0\\propertychanged.fody.4.1.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

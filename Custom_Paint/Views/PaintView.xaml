@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="Custom_Paint.Views.PaintView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:Fluent="clr-namespace:Fluent;assembly=Fluent"
+             xmlns:i ="http://schemas.microsoft.com/xaml/behaviors"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Custom_Paint.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="1200">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Fluent:Ribbon Panel.ZIndex="100" x:Name="AppRibbon" CanMinimize="False" Grid.Row="0">
+            <Fluent:Ribbon.Menu>
+                <Fluent:Backstage>
+                    <Fluent:BackstageTabControl>
+                        <Fluent:Button Header="Save"/>
+                        <Fluent:Button Header="Load"/>
+                        <Fluent:Button Header="New"/>
+                    </Fluent:BackstageTabControl>
+                </Fluent:Backstage>
+
+            </Fluent:Ribbon.Menu>
+            <Fluent:RibbonTabItem Header="Shape ">
+                <Fluent:RibbonGroupBox Header="Shape" Width="69">
+                    <ItemsControl ItemsSource="{Binding ListShapeButton }">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Orientation="Horizontal"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                    </ItemsControl>
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+        </Fluent:Ribbon>
+        <Grid Grid.Row="1" x:Name="MainContent">
+            <ItemsControl Panel.ZIndex="{Binding DrawCanvasZIndex}" ItemsSource="{Binding RenderList}" >
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Canvas  Background="White">
+                        </Canvas>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+            <Canvas Panel.ZIndex="{Binding HandleCanvasZIndex}" Background="Transparent"  MouseUp="Canvas_MouseUp" MouseMove="Canvas_MouseMove" MouseDown="Canvas_MouseDown"/>
+        </Grid>
+    </Grid>
+</UserControl>

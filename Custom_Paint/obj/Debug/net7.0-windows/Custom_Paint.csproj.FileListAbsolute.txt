@@ -1,0 +1,75 @@
+D:\Class\Window\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\Custom_Paint.exe
+D:\Class\Window\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\Custom_Paint.deps.json
+D:\Class\Window\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\Custom_Paint.runtimeconfig.json
+D:\Class\Window\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\Custom_Paint.dll
+D:\Class\Window\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\Custom_Paint.pdb
+D:\Class\Window\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\ControlzEx.dll
+D:\Class\Window\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\Fluent.dll
+D:\Class\Window\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\Class\Window\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.csproj.AssemblyReference.cache
+D:\Class\Window\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\Class\Window\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\App.g.cs
+D:\Class\Window\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint_MarkupCompile.cache
+D:\Class\Window\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint_MarkupCompile.lref
+D:\Class\Window\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\MainWindow.baml
+D:\Class\Window\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.g.resources
+D:\Class\Window\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.GeneratedMSBuildEditorConfig.editorconfig
+D:\Class\Window\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.AssemblyInfoInputs.cache
+D:\Class\Window\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.AssemblyInfo.cs
+D:\Class\Window\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.csproj.CoreCompileInputs.cache
+D:\Class\Window\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.csproj.CopyComplete
+D:\Class\Window\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.dll
+D:\Class\Window\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\refint\Custom_Paint.dll
+D:\Class\Window\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.pdb
+D:\Class\Window\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.genruntimeconfig.cache
+D:\Class\Window\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\ref\Custom_Paint.dll
+D:\Class\Window\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\App.baml
+D:\Class\Window\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\Contract.dll
+D:\Class\Window\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\ShapeTab.dll
+D:\Class\Window\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\Contract.pdb
+D:\Class\Window\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\ShapeTab.pdb
+D:\Class\Window\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\LineShape.dll
+D:\Class\Window\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\LineShape.pdb
+D:\Class\Window\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\RectShape.dll
+D:\Class\Window\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\RectShape.pdb
+D:\Class\Window\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\AdornerLib.dll
+D:\Class\Window\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\AdornerLib.pdb
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\Custom_Paint.exe
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\Custom_Paint.deps.json
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\Custom_Paint.runtimeconfig.json
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\Custom_Paint.dll
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\Custom_Paint.pdb
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\ControlzEx.dll
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\Fluent.dll
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\AdornerLib.dll
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\Contract.dll
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\LineShape.dll
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\RectShape.dll
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\Contract.pdb
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\LineShape.pdb
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\RectShape.pdb
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\AdornerLib.pdb
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.csproj.AssemblyReference.cache
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\App.g.cs
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint_MarkupCompile.cache
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint_MarkupCompile.lref
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\App.baml
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\MainWindow.baml
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.g.resources
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.GeneratedMSBuildEditorConfig.editorconfig
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.AssemblyInfoInputs.cache
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.AssemblyInfo.cs
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.csproj.CoreCompileInputs.cache
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.csproj.CopyComplete
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.dll
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\refint\Custom_Paint.dll
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.pdb
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.genruntimeconfig.cache
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\ref\Custom_Paint.dll
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Views\PaintView.g.cs
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Views\PaintView.baml
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.csproj.Fody.CopyLocal.cache
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.csproj.Fody.RuntimeCopyLocal.cache

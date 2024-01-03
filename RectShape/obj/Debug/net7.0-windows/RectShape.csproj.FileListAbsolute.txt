@@ -1,0 +1,34 @@
+D:\Class\Window\Custom_Paint\RectShape\bin\Debug\net7.0-windows\RectShape.deps.json
+D:\Class\Window\Custom_Paint\RectShape\bin\Debug\net7.0-windows\RectShape.dll
+D:\Class\Window\Custom_Paint\RectShape\bin\Debug\net7.0-windows\RectShape.pdb
+D:\Class\Window\Custom_Paint\RectShape\bin\Debug\net7.0-windows\Contract.dll
+D:\Class\Window\Custom_Paint\RectShape\bin\Debug\net7.0-windows\Contract.pdb
+D:\Class\Window\Custom_Paint\RectShape\obj\Debug\net7.0-windows\RectShape.csproj.AssemblyReference.cache
+D:\Class\Window\Custom_Paint\RectShape\obj\Debug\net7.0-windows\RectShape.GeneratedMSBuildEditorConfig.editorconfig
+D:\Class\Window\Custom_Paint\RectShape\obj\Debug\net7.0-windows\RectShape.AssemblyInfoInputs.cache
+D:\Class\Window\Custom_Paint\RectShape\obj\Debug\net7.0-windows\RectShape.AssemblyInfo.cs
+D:\Class\Window\Custom_Paint\RectShape\obj\Debug\net7.0-windows\RectShape.csproj.CoreCompileInputs.cache
+D:\Class\Window\Custom_Paint\RectShape\obj\Debug\net7.0-windows\RectShape.csproj.CopyComplete
+D:\Class\Window\Custom_Paint\RectShape\obj\Debug\net7.0-windows\RectShape.dll
+D:\Class\Window\Custom_Paint\RectShape\obj\Debug\net7.0-windows\refint\RectShape.dll
+D:\Class\Window\Custom_Paint\RectShape\obj\Debug\net7.0-windows\RectShape.pdb
+D:\Class\Window\Custom_Paint\RectShape\obj\Debug\net7.0-windows\ref\RectShape.dll
+D:\Class\Window\Custom_Paint\RectShape\bin\Debug\net7.0-windows\AdornerLib.dll
+D:\Class\Window\Custom_Paint\RectShape\bin\Debug\net7.0-windows\AdornerLib.pdb
+D:\Class\Window\Custom_Paint - 2\RectShape\bin\Debug\net7.0-windows\RectShape.deps.json
+D:\Class\Window\Custom_Paint - 2\RectShape\bin\Debug\net7.0-windows\RectShape.dll
+D:\Class\Window\Custom_Paint - 2\RectShape\bin\Debug\net7.0-windows\RectShape.pdb
+D:\Class\Window\Custom_Paint - 2\RectShape\bin\Debug\net7.0-windows\AdornerLib.dll
+D:\Class\Window\Custom_Paint - 2\RectShape\bin\Debug\net7.0-windows\Contract.dll
+D:\Class\Window\Custom_Paint - 2\RectShape\bin\Debug\net7.0-windows\AdornerLib.pdb
+D:\Class\Window\Custom_Paint - 2\RectShape\bin\Debug\net7.0-windows\Contract.pdb
+D:\Class\Window\Custom_Paint - 2\RectShape\obj\Debug\net7.0-windows\RectShape.csproj.AssemblyReference.cache
+D:\Class\Window\Custom_Paint - 2\RectShape\obj\Debug\net7.0-windows\RectShape.GeneratedMSBuildEditorConfig.editorconfig
+D:\Class\Window\Custom_Paint - 2\RectShape\obj\Debug\net7.0-windows\RectShape.AssemblyInfoInputs.cache
+D:\Class\Window\Custom_Paint - 2\RectShape\obj\Debug\net7.0-windows\RectShape.AssemblyInfo.cs
+D:\Class\Window\Custom_Paint - 2\RectShape\obj\Debug\net7.0-windows\RectShape.csproj.CoreCompileInputs.cache
+D:\Class\Window\Custom_Paint - 2\RectShape\obj\Debug\net7.0-windows\RectShape.csproj.CopyComplete
+D:\Class\Window\Custom_Paint - 2\RectShape\obj\Debug\net7.0-windows\RectShape.dll
+D:\Class\Window\Custom_Paint - 2\RectShape\obj\Debug\net7.0-windows\refint\RectShape.dll
+D:\Class\Window\Custom_Paint - 2\RectShape\obj\Debug\net7.0-windows\RectShape.pdb
+D:\Class\Window\Custom_Paint - 2\RectShape\obj\Debug\net7.0-windows\ref\RectShape.dll

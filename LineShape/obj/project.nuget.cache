@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "qy3F1LwzB5btgOf3SBCqpHixM6shD6Uo4N9+81qGNagOT6PS453lZOijn26Z1Kr59zC8gBs0tyiGevuRZtvdJg==",
+  "success": true,
+  "projectFilePath": "D:\\Class\\Window\\Custom_Paint - 2\\LineShape\\LineShape.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\controlzex\\6.0.0\\controlzex.6.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\fluent.ribbon\\10.0.4\\fluent.ribbon.10.0.4.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
