@@ -32,3 +32,4 @@ D:\Class\Window\Custom_Paint - 2\RectShape\obj\Debug\net7.0-windows\RectShape.dl
 D:\Class\Window\Custom_Paint - 2\RectShape\obj\Debug\net7.0-windows\refint\RectShape.dll
 D:\Class\Window\Custom_Paint - 2\RectShape\obj\Debug\net7.0-windows\RectShape.pdb
 D:\Class\Window\Custom_Paint - 2\RectShape\obj\Debug\net7.0-windows\ref\RectShape.dll
+D:\Class\Window\Custom_Paint - 2\RectShape\obj\Debug\net7.0-windows\RectShape.sourcelink.json

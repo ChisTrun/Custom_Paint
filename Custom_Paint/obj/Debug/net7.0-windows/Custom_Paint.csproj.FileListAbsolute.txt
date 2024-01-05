@@ -73,3 +73,4 @@ D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Generated
 D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Views\PaintView.baml
 D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.csproj.Fody.CopyLocal.cache
 D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.csproj.Fody.RuntimeCopyLocal.cache
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.sourcelink.json

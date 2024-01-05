@@ -22,3 +22,4 @@ D:\Class\Window\Custom_Paint - 2\Contract\obj\Debug\net7.0-windows\Contract.dll
 D:\Class\Window\Custom_Paint - 2\Contract\obj\Debug\net7.0-windows\refint\Contract.dll
 D:\Class\Window\Custom_Paint - 2\Contract\obj\Debug\net7.0-windows\Contract.pdb
 D:\Class\Window\Custom_Paint - 2\Contract\obj\Debug\net7.0-windows\ref\Contract.dll
+D:\Class\Window\Custom_Paint - 2\Contract\obj\Debug\net7.0-windows\Contract.sourcelink.json

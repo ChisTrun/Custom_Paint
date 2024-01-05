@@ -28,3 +28,4 @@ D:\Class\Window\Custom_Paint - 2\LineShape\bin\Debug\net7.0-windows\Contract.dll
 D:\Class\Window\Custom_Paint - 2\LineShape\bin\Debug\net7.0-windows\Contract.pdb
 D:\Class\Window\Custom_Paint - 2\LineShape\obj\Debug\net7.0-windows\LineShape.csproj.CopyComplete
 D:\Class\Window\Custom_Paint - 2\LineShape\obj\Debug\net7.0-windows\ref\LineShape.dll
+D:\Class\Window\Custom_Paint - 2\LineShape\obj\Debug\net7.0-windows\LineShape.sourcelink.json
