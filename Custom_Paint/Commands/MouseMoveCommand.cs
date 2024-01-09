@@ -20,18 +20,19 @@ namespace Custom_Paint.Commands
         {
             if (parameter != null && _viewModel.IsDrawing)
             {
-                _viewModel.RenderList.Clear();
-                foreach (IShape shape in _viewModel.ShapeList)
-                {
-                    _viewModel.RenderList.Add(shape.Draw());
-                }
-                _viewModel.End = (Point)parameter;
-
-                _viewModel.Preview.UpdatePoints(_viewModel.End);
-                _viewModel.RenderList.Add(_viewModel.Preview.Draw());
+                //_viewModel.RenderList.Clear();
+                //foreach (IShape shape in _viewModel.ShapeList)
+                //{
+                //    _viewModel.RenderList.Add(shape.Draw());
+                //}
+                //_viewModel.End = (Point)parameter;
 
                 //_viewModel.Preview.UpdatePoints(_viewModel.End);
-                //_viewModel.PreviewRender = _viewModel.Preview.Draw();
+                //_viewModel.RenderList.Add(_viewModel.Preview.Draw());
+
+                _viewModel.End = (Point)parameter;
+                _viewModel.Preview.UpdatePoints(_viewModel.End);
+                _viewModel.PreviewRender = _viewModel.Preview.Draw();
             }
         }
     }

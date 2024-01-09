@@ -61,19 +61,6 @@ namespace RectShape
             var rect = sender as UIElement;
             var a = AdornerLayer.GetAdornerLayer(VisualTreeHelper.GetParent(rect) as UIElement);
             a.Add(new RectResize(rect, this));
-            a.MouseUp += (o, e) => { 
-                e.Handled = true;
-            };
-        }
-
-        private void RectClick(object sender, MouseButtonEventArgs e)
-        {
-           
-            //var rect = sender as UIElement;
-            //if (e.ClickCount == 1 && rect != null)
-            //{
-            //    AdornerLayer.GetAdornerLayer(VisualTreeHelper.GetParent(rect) as UIElement).Add(new RectResize(rect, this));
-            //}
         }
 
         public override void UpdatePoints(Point newPoint)

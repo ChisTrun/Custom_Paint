@@ -45,17 +45,16 @@ namespace EllipseShape
             Canvas.SetTop(ellipse, points[0].Y + deltaY);
             Canvas.SetLeft(ellipse, points[0].X + deltaX);
             ellipse.MouseLeftButtonDown += EllipseClick;
-            return ellipse;
+            this.Preview = ellipse;
+            return this.Preview;
         }
 
-        private void EllipseClick(object sender, MouseButtonEventArgs e)
+        private void EllipseLoaded(object sender, RoutedEventArgs e)
         {
             this.isSelected = true;
             var ellipse = sender as UIElement;
-            if (e.ClickCount == 1 && ellipse != null)
-            {
-                AdornerLayer.GetAdornerLayer(VisualTreeHelper.GetParent(ellipse) as UIElement).Add(new RectResize(ellipse, this));
-            }
+            var a = AdornerLayer.GetAdornerLayer(VisualTreeHelper.GetParent(ellipse) as UIElement);
+            a.Add(new RectResize(ellipse, this));
         }
 
         public override void UpdatePoints(Point newPoint)
