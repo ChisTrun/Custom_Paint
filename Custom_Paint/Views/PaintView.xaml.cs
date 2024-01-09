@@ -45,5 +45,12 @@ namespace Custom_Paint.Views
             var viewModel = (PaintViewModel)DataContext;
             viewModel.MouseUp.Execute(sender);
         }
+
+
+        private void OnViewModelChangePreview(UIElement newPreview)
+        {
+            this.PreviewCanvas.Children.Clear();
+            this.PreviewCanvas.Children.Add(newPreview);
+        }
     }
 }

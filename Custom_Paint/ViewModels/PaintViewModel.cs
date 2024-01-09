@@ -67,12 +67,15 @@ namespace Custom_Paint.ViewModels
         //Draw / Preview
 
         public List<IShape> ShapeList = new List<IShape>();
+        public ObservableCollection<UIElement> RenderList { get; set; } //
+
+        // >>
 
         public UIElement PreviewRender { get; set; }
 
+        public Action<UIElement> RefreshReview;
 
-        public ObservableCollection<UIElement> RenderList { get; set; } //
-
+        // <<
 
             
         public ShapeFactory Factory { get; set; }
