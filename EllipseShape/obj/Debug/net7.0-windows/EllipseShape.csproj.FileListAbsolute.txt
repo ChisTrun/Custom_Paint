@@ -16,20 +16,3 @@ D:\Class\Window\Custom_Paint - 2\EllipseShape\obj\Debug\net7.0-windows\EllipseSh
 D:\Class\Window\Custom_Paint - 2\EllipseShape\obj\Debug\net7.0-windows\refint\EllipseShape.dll
 D:\Class\Window\Custom_Paint - 2\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.pdb
 D:\Class\Window\Custom_Paint - 2\EllipseShape\obj\Debug\net7.0-windows\ref\EllipseShape.dll
-D:\programin\Git\WPF_CustomPaint\EllipseShape\bin\Debug\net7.0-windows\EllipseShape.deps.json
-D:\programin\Git\WPF_CustomPaint\EllipseShape\bin\Debug\net7.0-windows\EllipseShape.dll
-D:\programin\Git\WPF_CustomPaint\EllipseShape\bin\Debug\net7.0-windows\EllipseShape.pdb
-D:\programin\Git\WPF_CustomPaint\EllipseShape\bin\Debug\net7.0-windows\AdornerLib.dll
-D:\programin\Git\WPF_CustomPaint\EllipseShape\bin\Debug\net7.0-windows\Contract.dll
-D:\programin\Git\WPF_CustomPaint\EllipseShape\bin\Debug\net7.0-windows\AdornerLib.pdb
-D:\programin\Git\WPF_CustomPaint\EllipseShape\bin\Debug\net7.0-windows\Contract.pdb
-D:\programin\Git\WPF_CustomPaint\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.csproj.AssemblyReference.cache
-D:\programin\Git\WPF_CustomPaint\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.GeneratedMSBuildEditorConfig.editorconfig
-D:\programin\Git\WPF_CustomPaint\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.AssemblyInfoInputs.cache
-D:\programin\Git\WPF_CustomPaint\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.AssemblyInfo.cs
-D:\programin\Git\WPF_CustomPaint\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.csproj.CoreCompileInputs.cache
-D:\programin\Git\WPF_CustomPaint\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.csproj.CopyComplete
-D:\programin\Git\WPF_CustomPaint\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.dll
-D:\programin\Git\WPF_CustomPaint\EllipseShape\obj\Debug\net7.0-windows\refint\EllipseShape.dll
-D:\programin\Git\WPF_CustomPaint\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.pdb
-D:\programin\Git\WPF_CustomPaint\EllipseShape\obj\Debug\net7.0-windows\ref\EllipseShape.dll
