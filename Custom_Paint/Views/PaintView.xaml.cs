@@ -25,6 +25,14 @@ namespace Custom_Paint.Views
         public PaintView()
         {
             InitializeComponent();
+
+            this.Loaded += PaintView_Loaded;
+        }
+
+        private void PaintView_Loaded(object sender, RoutedEventArgs e)
+        {
+            var viewModel = (PaintViewModel)DataContext;
+            viewModel.RefreshReview = this.OnRefreshPreview;
         }
 
         private void Canvas_MouseDown(object sender, MouseButtonEventArgs e)
@@ -47,7 +55,7 @@ namespace Custom_Paint.Views
         }
 
 
-        private void OnViewModelChangePreview(UIElement newPreview)
+        private void OnRefreshPreview(UIElement newPreview)
         {
             this.PreviewCanvas.Children.Clear();
             this.PreviewCanvas.Children.Add(newPreview);

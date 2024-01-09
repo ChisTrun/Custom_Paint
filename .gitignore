@@ -366,3 +366,4 @@ FodyWeavers.xsd
 /**/obj/**/*
 /**/bin/**/*
 /.vs/**
+/AdornerLib/obj/Debug/net7.0-windows/AdornerLib.assets.cache

@@ -67,24 +67,32 @@ namespace Custom_Paint.ViewModels
         //Draw / Preview
 
         public List<IShape> ShapeList = new List<IShape>();
-        public ObservableCollection<UIElement> RenderList { get; set; } //
 
         // >>
 
-        public UIElement PreviewRender { get; set; }
+        public UIElement _previewRender;
+        public UIElement PreviewRender
+        {
+            get { return _previewRender; }
+            set
+            {
+                _previewRender = value;
+                RefreshReview.Invoke(_previewRender);
+            }
+        }
 
-        public Action<UIElement> RefreshReview;
+        public Action<UIElement> RefreshReview { get; set; }
 
         // <<
 
-            
+
         public ShapeFactory Factory { get; set; }
 
-        public ICommand ColorButtonClick{ get; }
+        public ICommand ColorButtonClick { get; }
 
-        public List<Fluent.Button> ListShapeButton {  get; set; }   
+        public List<Fluent.Button> ListShapeButton { get; set; }
 
-        
+
 
         public PaintViewModel()
         {
@@ -97,8 +105,6 @@ namespace Custom_Paint.ViewModels
             this.MouseUp = new MouseUpCommand(this);
             this.MouseMove = new MouseMoveCommand(this);
 
-
-            this.RenderList = new ObservableCollection<UIElement>() {};
             //options
             this.ListShapeButton = new List<Fluent.Button>();
             this.Factory = new ShapeFactory();

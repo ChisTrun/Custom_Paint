@@ -31,11 +31,13 @@ namespace Custom_Paint.Commands
                         shape.StrokeColor = _viewModel.CurrentColor;
                     }
                 }
-                _viewModel.RenderList.Clear();
-                foreach (IShape shape in _viewModel.ShapeList)
-                {
-                    _viewModel.RenderList.Add(shape.Draw());
-                }
+                //TODO
+
+                //_viewModel.RenderList.Clear();
+                //foreach (IShape shape in _viewModel.ShapeList)
+                //{
+                //    _viewModel.RenderList.Add(shape.Draw());
+                //}
             }
         }
     }
