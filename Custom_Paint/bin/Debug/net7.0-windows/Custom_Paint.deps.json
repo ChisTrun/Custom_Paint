@@ -8,12 +8,11 @@
     ".NETCoreApp,Version=v7.0": {
       "Custom_Paint/1.0.0": {
         "dependencies": {
+          "AdornerLib": "1.0.0",
           "Contract": "1.0.0",
           "Fluent.Ribbon": "10.0.4",
-          "LineShape": "1.0.0",
           "Microsoft.Xaml.Behaviors.Wpf": "1.1.77",
-          "PropertyChanged.Fody": "4.1.0",
-          "RectShape": "1.0.0"
+          "PropertyChanged.Fody": "4.1.0"
         },
         "runtime": {
           "Custom_Paint.dll": {}
@@ -72,23 +71,6 @@
         "runtime": {
           "Contract.dll": {}
         }
-      },
-      "LineShape/1.0.0": {
-        "dependencies": {
-          "Contract": "1.0.0"
-        },
-        "runtime": {
-          "LineShape.dll": {}
-        }
-      },
-      "RectShape/1.0.0": {
-        "dependencies": {
-          "AdornerLib": "1.0.0",
-          "Contract": "1.0.0"
-        },
-        "runtime": {
-          "RectShape.dll": {}
-        }
       }
     }
   },
@@ -146,16 +128,6 @@
       "sha512": ""
     },
     "Contract/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "LineShape/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "RectShape/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

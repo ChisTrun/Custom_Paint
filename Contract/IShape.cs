@@ -19,8 +19,8 @@ namespace Contract
         public double centerX { get; set; }
         public double centerY { get; set; }
         public SolidColorBrush? Fill { get; set; } = null;
+        public SolidColorBrush? StrokeColor { get; set; } = null;
         public abstract string Name { get; }
-
         public abstract string Icon { get; }
         public abstract void UpdatePoints(Point newPoint);
         public abstract IShape Clone();
@@ -28,7 +28,6 @@ namespace Contract
         public static void RemoveResize(UIElement shape) {
             AdornerLayer adornerLayer = AdornerLayer.GetAdornerLayer(shape);
             Adorner[] adorners = adornerLayer.GetAdorners(shape);
-
             if (adorners != null)
             {
                 foreach (Adorner adorner in adorners)

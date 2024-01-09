@@ -26,7 +26,8 @@ namespace Custom_Paint.Commands
                 _viewModel.Start = (Point)parameter;
                 _viewModel.Preview.points = new List<Point>() { _viewModel.Start, _viewModel.Start };
                 _viewModel.Preview.StrokeThickness = 2;
-                _viewModel.Preview.Fill = Brushes.Green;
+                _viewModel.Preview.StrokeColor = _viewModel.CurrentColor;
+                _viewModel.Preview.Fill = Brushes.Transparent;
             }
         }
     }

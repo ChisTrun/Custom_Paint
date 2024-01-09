@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "K9+12cIQ23cxZuT6e/reHVqerxuFkFn9pUQ+58h7JT2B6DGI8iUUspXZ2sjfNe0i4m6PgARrK1JFfscJ0lIZyQ==",
+  "success": true,
+  "projectFilePath": "D:\\Class\\Window\\Custom_Paint - 2\\EllipseShape\\EllipseShape.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\controlzex\\6.0.0\\controlzex.6.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\fluent.ribbon\\10.0.4\\fluent.ribbon.10.0.4.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

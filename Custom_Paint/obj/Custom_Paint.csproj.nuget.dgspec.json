@@ -169,14 +169,11 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
+              "D:\\Class\\Window\\Custom_Paint - 2\\AdornerLib\\AdornerLib.csproj": {
+                "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\AdornerLib\\AdornerLib.csproj"
+              },
               "D:\\Class\\Window\\Custom_Paint - 2\\Contract\\Contract.csproj": {
                 "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\Contract\\Contract.csproj"
-              },
-              "D:\\Class\\Window\\Custom_Paint - 2\\LineShape\\LineShape.csproj": {
-                "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\LineShape\\LineShape.csproj"
-              },
-              "D:\\Class\\Window\\Custom_Paint - 2\\RectShape\\RectShape.csproj": {
-                "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\RectShape\\RectShape.csproj"
               }
             }
           }
@@ -204,143 +201,6 @@
               "version": "[4.1.0, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WPF": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Class\\Window\\Custom_Paint - 2\\LineShape\\LineShape.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Class\\Window\\Custom_Paint - 2\\LineShape\\LineShape.csproj",
-        "projectName": "LineShape",
-        "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\LineShape\\LineShape.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\Class\\Window\\Custom_Paint - 2\\LineShape\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0-windows"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0-windows7.0": {
-            "targetAlias": "net7.0-windows",
-            "projectReferences": {
-              "D:\\Class\\Window\\Custom_Paint - 2\\Contract\\Contract.csproj": {
-                "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\Contract\\Contract.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0-windows7.0": {
-          "targetAlias": "net7.0-windows",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WPF": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Class\\Window\\Custom_Paint - 2\\RectShape\\RectShape.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Class\\Window\\Custom_Paint - 2\\RectShape\\RectShape.csproj",
-        "projectName": "RectShape",
-        "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\RectShape\\RectShape.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\Class\\Window\\Custom_Paint - 2\\RectShape\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0-windows"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0-windows7.0": {
-            "targetAlias": "net7.0-windows",
-            "projectReferences": {
-              "D:\\Class\\Window\\Custom_Paint - 2\\AdornerLib\\AdornerLib.csproj": {
-                "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\AdornerLib\\AdornerLib.csproj"
-              },
-              "D:\\Class\\Window\\Custom_Paint - 2\\Contract\\Contract.csproj": {
-                "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\Contract\\Contract.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0-windows7.0": {
-          "targetAlias": "net7.0-windows",
           "imports": [
             "net461",
             "net462",

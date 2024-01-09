@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AdornerLib</id>
+    <version>1.0.0</version>
+    <authors>AdornerLib</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="6986c79d0a16d698fa0f81ac78c4110a0b302bd6" />
+    <dependencies>
+      <group targetFramework="net7.0-windows7.0">
+        <dependency id="Contract" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net7.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\Class\Window\Custom_Paint - 2\AdornerLib\bin\Debug\net7.0-windows\AdornerLib.dll" target="lib\net7.0-windows7.0\AdornerLib.dll" />
+  </files>
+</package>

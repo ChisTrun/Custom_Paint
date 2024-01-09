@@ -7,7 +7,21 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Custom_Paint.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="600" d:DesignWidth="1200">
+             d:Height="600" d:Width="1200">
+
+    <UserControl.Resources>
+        <Style x:Key="circleBtn" TargetType="Fluent:Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Fluent:Button">
+                        <Border BorderBrush="Gray" BorderThickness="1" Background="{TemplateBinding Background}" CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
@@ -17,15 +31,15 @@
             <Fluent:Ribbon.Menu>
                 <Fluent:Backstage>
                     <Fluent:BackstageTabControl>
-                        <Fluent:Button Header="Save"/>
-                        <Fluent:Button Header="Load"/>
                         <Fluent:Button Header="New"/>
+                        <Fluent:Button Header="Open"/>
+                        <Fluent:Button Header="Save"/>
                     </Fluent:BackstageTabControl>
                 </Fluent:Backstage>
 
             </Fluent:Ribbon.Menu>
-            <Fluent:RibbonTabItem Header="Shape ">
-                <Fluent:RibbonGroupBox Header="Shape" Width="69">
+            <Fluent:RibbonTabItem Header="ToolBar ">
+                <Fluent:RibbonGroupBox Header="Shape">
                     <ItemsControl ItemsSource="{Binding ListShapeButton }">
                         <ItemsControl.ItemsPanel>
                             <ItemsPanelTemplate>
@@ -33,6 +47,20 @@
                             </ItemsPanelTemplate>
                         </ItemsControl.ItemsPanel>
                     </ItemsControl>
+                </Fluent:RibbonGroupBox>
+                <Fluent:RibbonGroupBox Header="Color">
+                    <Border Margin="10"  Width="30" Height="30" Background="{Binding CurrentColor}" CornerRadius="20"/>
+                    <WrapPanel Width="100">
+                        <Fluent:Button Margin="5" Style="{StaticResource circleBtn}" Command="{Binding ColorButtonClick}" CommandParameter="{Binding Background, RelativeSource={RelativeSource Self}}" Height="20" Width="20" Background="Green"/>
+                        <Fluent:Button Margin="5" Style="{StaticResource circleBtn}" Command="{Binding ColorButtonClick}" CommandParameter="{Binding Background, RelativeSource={RelativeSource Self}}" Height="20" Width="20" Background="red"/>
+                        <Fluent:Button Margin="5" Style="{StaticResource circleBtn}" Command="{Binding ColorButtonClick}" CommandParameter="{Binding Background, RelativeSource={RelativeSource Self}}" Height="20" Width="20" Background="blue"/>
+                        <Fluent:Button Margin="5" Style="{StaticResource circleBtn}" Command="{Binding ColorButtonClick}" CommandParameter="{Binding Background, RelativeSource={RelativeSource Self}}" Height="20" Width="20" Background="Orange"/>
+                        <Fluent:Button Margin="5" Style="{StaticResource circleBtn}" Command="{Binding ColorButtonClick}" CommandParameter="{Binding Background, RelativeSource={RelativeSource Self}}" Height="20" Width="20" Background="Purple"/>
+                        <Fluent:Button Margin="5" Style="{StaticResource circleBtn}" Command="{Binding ColorButtonClick}" CommandParameter="{Binding Background, RelativeSource={RelativeSource Self}}" Height="20" Width="20" Background="Pink"/>
+                    </WrapPanel>
+                </Fluent:RibbonGroupBox>
+                <Fluent:RibbonGroupBox Header="Tool">
+
                 </Fluent:RibbonGroupBox>
             </Fluent:RibbonTabItem>
         </Fluent:Ribbon>

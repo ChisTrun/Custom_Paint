@@ -42,14 +42,8 @@ D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\Custom_Pa
 D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\ControlzEx.dll
 D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\Fluent.dll
 D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\Microsoft.Xaml.Behaviors.dll
-D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\AdornerLib.dll
 D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\Contract.dll
-D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\LineShape.dll
-D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\RectShape.dll
 D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\Contract.pdb
-D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\LineShape.pdb
-D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\RectShape.pdb
-D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\AdornerLib.pdb
 D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.csproj.AssemblyReference.cache
 D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\MainWindow.g.cs
 D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\App.g.cs
@@ -74,3 +68,5 @@ D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Views\Pai
 D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.csproj.Fody.CopyLocal.cache
 D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.csproj.Fody.RuntimeCopyLocal.cache
 D:\Class\Window\Custom_Paint - 2\Custom_Paint\obj\Debug\net7.0-windows\Custom_Paint.sourcelink.json
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\AdornerLib.dll
+D:\Class\Window\Custom_Paint - 2\Custom_Paint\bin\Debug\net7.0-windows\AdornerLib.pdb

@@ -126,39 +126,6 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
         ]
-      },
-      "LineShape/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Contract": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/LineShape.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LineShape.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WPF"
-        ]
-      },
-      "RectShape/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "AdornerLib": "1.0.0",
-          "Contract": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/RectShape.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/RectShape.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WPF"
-        ]
       }
     }
   },
@@ -307,26 +274,15 @@
       "type": "project",
       "path": "../Contract/Contract.csproj",
       "msbuildProject": "../Contract/Contract.csproj"
-    },
-    "LineShape/1.0.0": {
-      "type": "project",
-      "path": "../LineShape/LineShape.csproj",
-      "msbuildProject": "../LineShape/LineShape.csproj"
-    },
-    "RectShape/1.0.0": {
-      "type": "project",
-      "path": "../RectShape/RectShape.csproj",
-      "msbuildProject": "../RectShape/RectShape.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0-windows7.0": [
+      "AdornerLib >= 1.0.0",
       "Contract >= 1.0.0",
       "Fluent.Ribbon >= 10.0.4",
-      "LineShape >= 1.0.0",
       "Microsoft.Xaml.Behaviors.Wpf >= 1.1.77",
-      "PropertyChanged.Fody >= 4.1.0",
-      "RectShape >= 1.0.0"
+      "PropertyChanged.Fody >= 4.1.0"
     ]
   },
   "packageFolders": {
@@ -362,14 +318,11 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
+            "D:\\Class\\Window\\Custom_Paint - 2\\AdornerLib\\AdornerLib.csproj": {
+              "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\AdornerLib\\AdornerLib.csproj"
+            },
             "D:\\Class\\Window\\Custom_Paint - 2\\Contract\\Contract.csproj": {
               "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\Contract\\Contract.csproj"
-            },
-            "D:\\Class\\Window\\Custom_Paint - 2\\LineShape\\LineShape.csproj": {
-              "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\LineShape\\LineShape.csproj"
-            },
-            "D:\\Class\\Window\\Custom_Paint - 2\\RectShape\\RectShape.csproj": {
-              "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\RectShape\\RectShape.csproj"
             }
           }
         }

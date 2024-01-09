@@ -1,9 +1,6 @@
 ﻿using Contract;
-using LineShape;
-using RectShape;
 using System.Windows;
 using System.Collections.ObjectModel;
-using System.Windows.Shapes;
 using System.Windows.Media;
 using System.Windows.Input;
 using Custom_Paint.Commands;
@@ -13,6 +10,9 @@ namespace Custom_Paint.ViewModels
 {
     public class PaintViewModel : ViewModelBase
     {
+        private SolidColorBrush _currentColor = Brushes.Black;
+        public SolidColorBrush CurrentColor { get { return _currentColor; } set { _currentColor = value; } }
+
         public UIElement? _selectedElement = null;
 
         private Point _start;
@@ -55,6 +55,8 @@ namespace Custom_Paint.ViewModels
         public ICommand MouseUp { get; }
         public ICommand MouseMove { get; }
 
+        public ICommand ColorButtonClick{ get; }
+
         public List<Fluent.Button> ListShapeButton {  get; set; }   
 
         private void GetShapeButton()
@@ -82,20 +84,16 @@ namespace Custom_Paint.ViewModels
 
         public PaintViewModel()
         {
-            this._preview = new Rect2D();
-            this._preview.Fill = Brushes.Green;
-            this._preview.StrokeThickness = 10;
             this._start = new Point(0, 0);
             this._end = new Point(0, 0);
             this.HandleCanvasZIndex = 2;
             this.DrawCanvasZIndex = 1;
             this._isDrawing = false;
+            this.ColorButtonClick = new ColorButtonClickCommand(this);
             this.MouseDown = new MouseDownCommand(this);
             this.MouseUp = new MouseUpCommand(this);
             this.MouseMove = new MouseMoveCommand(this);
-            this.RenderList = new ObservableCollection<UIElement>() {
-               
-            };
+            this.RenderList = new ObservableCollection<UIElement>() {};
             this.ListShapeButton = new List<Fluent.Button>();
             this.Factory = new ShapeFactory();
             GetShapeButton();

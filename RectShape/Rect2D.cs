@@ -35,17 +35,17 @@ namespace RectShape
             if (_width < 0) deltaX = _width;
             if (_height < 0) deltaY = _height;
 
-            this.centerX = _width/2; 
-            this.centerY = _height/2;
+            this.centerX = _width / 2;
+            this.centerY = _height / 2;
 
             Rectangle rect = new Rectangle()
             {
                 Width = Math.Abs(_width),
                 Height = Math.Abs(_height),
-                Stroke = Brushes.Black,
+                Stroke = this.StrokeColor,
                 StrokeThickness = this.StrokeThickness,
                 Fill = this.Fill,
-                RenderTransform = new RotateTransform(this.Angle,this.centerX,this.centerY)
+                RenderTransform = new RotateTransform(this.Angle, this.centerX, this.centerY)
             };
             Canvas.SetTop(rect, points[0].Y + deltaY);
             Canvas.SetLeft(rect, points[0].X + deltaX);
@@ -53,22 +53,21 @@ namespace RectShape
             return rect;
         }
 
-      
+
         private void RectClick(object sender, MouseButtonEventArgs e)
         {
             this.isSelected = true;
             var rect = sender as UIElement;
-            if (e.ClickCount == 1 && rect != null) {
-                AdornerLayer.GetAdornerLayer(VisualTreeHelper.GetParent(rect) as UIElement).Add(new RectResize(rect,this));
+            if (e.ClickCount == 1 && rect != null)
+            {
+                AdornerLayer.GetAdornerLayer(VisualTreeHelper.GetParent(rect) as UIElement).Add(new RectResize(rect, this));
             }
         }
 
         public override void UpdatePoints(Point newPoint)
         {
-            this.points[1] = newPoint;
+            if (this.points != null) this.points[1] = newPoint;
         }
-
-      
     }
 
 }
