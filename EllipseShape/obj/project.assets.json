@@ -207,23 +207,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\USER\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\programin\\Git\\WPF_CustomPaint\\EllipseShape\\EllipseShape.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Paint_Project\\Custom_Paint\\EllipseShape\\EllipseShape.csproj",
       "projectName": "EllipseShape",
-      "projectPath": "D:\\programin\\Git\\WPF_CustomPaint\\EllipseShape\\EllipseShape.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\programin\\Git\\WPF_CustomPaint\\EllipseShape\\obj\\",
+      "projectPath": "C:\\Users\\USER\\Desktop\\Paint_Project\\Custom_Paint\\EllipseShape\\EllipseShape.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\Paint_Project\\Custom_Paint\\EllipseShape\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -232,18 +232,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.devexpress.com/xe8r2Wu4yoDi8sVTgJ56Oc4lsRpV3gELgS5XaIGBfpwvpWjyup/api": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "D:\\programin\\Git\\WPF_CustomPaint\\AdornerLib\\AdornerLib.csproj": {
-              "projectPath": "D:\\programin\\Git\\WPF_CustomPaint\\AdornerLib\\AdornerLib.csproj"
+            "C:\\Users\\USER\\Desktop\\Paint_Project\\Custom_Paint\\AdornerLib\\AdornerLib.csproj": {
+              "projectPath": "C:\\Users\\USER\\Desktop\\Paint_Project\\Custom_Paint\\AdornerLib\\AdornerLib.csproj"
             },
-            "D:\\programin\\Git\\WPF_CustomPaint\\Contract\\Contract.csproj": {
-              "projectPath": "D:\\programin\\Git\\WPF_CustomPaint\\Contract\\Contract.csproj"
+            "C:\\Users\\USER\\Desktop\\Paint_Project\\Custom_Paint\\Contract\\Contract.csproj": {
+              "projectPath": "C:\\Users\\USER\\Desktop\\Paint_Project\\Custom_Paint\\Contract\\Contract.csproj"
             }
           }
         }
@@ -276,7 +276,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

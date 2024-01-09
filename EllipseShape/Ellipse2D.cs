@@ -62,6 +62,16 @@ namespace EllipseShape
         {
             if (this.points != null) this.points[1] = newPoint;
         }
+
+        public override void ShowAdorner()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void HideAdorner()
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }

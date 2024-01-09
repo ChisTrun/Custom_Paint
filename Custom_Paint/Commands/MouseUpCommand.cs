@@ -1,5 +1,6 @@
 ﻿using Contract;
 using Custom_Paint.ViewModels;
+using RectShape;
 using System.Drawing;
 using System.Windows.Media;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
@@ -20,8 +21,11 @@ namespace Custom_Paint.Commands
             if(_viewModel.IsDrawing)
             {
                 _viewModel.IsDrawing = false;
-                _viewModel.ShapeList.Add(_viewModel.Preview);
+                _viewModel.ShapeList.Add(_viewModel.Preview); // Will be deleted 
+                _viewModel.Preview.ShowAdorner();
                 _viewModel.Preview = null;
+                //_viewModel.Preview = new Rect2D();
+
             }
         }
 

@@ -23,3 +23,16 @@ D:\Class\Window\Custom_Paint - 2\Contract\obj\Debug\net7.0-windows\refint\Contra
 D:\Class\Window\Custom_Paint - 2\Contract\obj\Debug\net7.0-windows\Contract.pdb
 D:\Class\Window\Custom_Paint - 2\Contract\obj\Debug\net7.0-windows\ref\Contract.dll
 D:\Class\Window\Custom_Paint - 2\Contract\obj\Debug\net7.0-windows\Contract.sourcelink.json
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Contract\bin\Debug\net7.0-windows\Contract.deps.json
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Contract\bin\Debug\net7.0-windows\Contract.dll
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Contract\bin\Debug\net7.0-windows\Contract.pdb
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Contract\obj\Debug\net7.0-windows\Contract.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Contract\obj\Debug\net7.0-windows\Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Contract\obj\Debug\net7.0-windows\Contract.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Contract\obj\Debug\net7.0-windows\Contract.AssemblyInfo.cs
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Contract\obj\Debug\net7.0-windows\Contract.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Contract\obj\Debug\net7.0-windows\Contract.sourcelink.json
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Contract\obj\Debug\net7.0-windows\Contract.dll
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Contract\obj\Debug\net7.0-windows\refint\Contract.dll
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Contract\obj\Debug\net7.0-windows\Contract.pdb
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Contract\obj\Debug\net7.0-windows\ref\Contract.dll

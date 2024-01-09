@@ -29,6 +29,9 @@ namespace Custom_Paint.Commands
 
                 _viewModel.Preview.UpdatePoints(_viewModel.End);
                 _viewModel.RenderList.Add(_viewModel.Preview.Draw());
+
+                //_viewModel.Preview.UpdatePoints(_viewModel.End);
+                //_viewModel.PreviewRender = _viewModel.Preview.Draw();
             }
         }
     }

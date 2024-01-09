@@ -31,7 +31,16 @@ namespace LineShape
             return line;
         }
 
-       
+        public override void HideAdorner()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void ShowAdorner()
+        {
+            throw new NotImplementedException();
+        }
+
         public override void UpdatePoints(Point newPoint)
         {
             this.points[1] = newPoint;

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\programin\Git\WPF_CustomPaint\Custom_Paint\obj\Debug\net7.0-windows\
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\
 Custom_Paint
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-D:\programin\Git\WPF_CustomPaint\Custom_Paint\App.xaml
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Custom_Paint\App.xaml
 2601153171
 
 18-272914045
-2131943270044
+214-281430695
 MainWindow.xaml;Views\PaintView.xaml;
 
-True
+False
 

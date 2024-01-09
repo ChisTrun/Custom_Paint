@@ -49,25 +49,61 @@ namespace RectShape
             };
             Canvas.SetTop(rect, points[0].Y + deltaY);
             Canvas.SetLeft(rect, points[0].X + deltaX);
-            rect.MouseLeftButtonDown += RectClick;
-            return rect;
+            //rect.Loaded += RectLoaded;
+            //rect.MouseLeftButtonDown += RectClick;
+            this.Preview = rect;
+            return Preview;
         }
 
-
-        private void RectClick(object sender, MouseButtonEventArgs e)
+        private void RectLoaded(object sender, RoutedEventArgs e)
         {
             this.isSelected = true;
             var rect = sender as UIElement;
-            if (e.ClickCount == 1 && rect != null)
-            {
-                AdornerLayer.GetAdornerLayer(VisualTreeHelper.GetParent(rect) as UIElement).Add(new RectResize(rect, this));
-            }
+            var a = AdornerLayer.GetAdornerLayer(VisualTreeHelper.GetParent(rect) as UIElement);
+            a.Add(new RectResize(rect, this));
+            a.MouseUp += (o, e) => { 
+                e.Handled = true;
+            };
+        }
+
+        private void RectClick(object sender, MouseButtonEventArgs e)
+        {
+           
+            //var rect = sender as UIElement;
+            //if (e.ClickCount == 1 && rect != null)
+            //{
+            //    AdornerLayer.GetAdornerLayer(VisualTreeHelper.GetParent(rect) as UIElement).Add(new RectResize(rect, this));
+            //}
         }
 
         public override void UpdatePoints(Point newPoint)
         {
             if (this.points != null) this.points[1] = newPoint;
         }
+
+        public override void HideAdorner()
+        {
+            if(this.Preview != null)
+            {
+                AdornerLayer adornerLayer = AdornerLayer.GetAdornerLayer(this.Preview);
+                Adorner[] adorners = adornerLayer.GetAdorners(this.Preview);
+                if (adorners != null)
+                {
+                    foreach (Adorner adorner in adorners)
+                    {
+                        adornerLayer.Remove(adorner);
+                    }
+                }
+            }
+
+        }
+        public override void ShowAdorner()
+        {
+            if(this.Preview != null) {
+                AdornerLayer.GetAdornerLayer(VisualTreeHelper.GetParent(this.Preview) as UIElement).Add(new RectResize(this.Preview, this));
+            }
+        }
+
     }
 
 }

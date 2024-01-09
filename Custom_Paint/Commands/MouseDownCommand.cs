@@ -1,5 +1,6 @@
 ﻿using Contract;
 using Custom_Paint.ViewModels;
+using RectShape;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -20,6 +21,11 @@ namespace Custom_Paint.Commands
 
         public override void Execute(object? parameter)
         {
+            foreach (var item in _viewModel.ShapeList)
+            {
+                item.HideAdorner();
+            }
+            _viewModel.Preview = new Rect2D(); // test
             if (_viewModel.Preview != null && parameter != null)
             {
                 _viewModel.IsDrawing = true;

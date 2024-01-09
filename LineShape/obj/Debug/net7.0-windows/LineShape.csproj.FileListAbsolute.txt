@@ -29,3 +29,19 @@ D:\Class\Window\Custom_Paint - 2\LineShape\bin\Debug\net7.0-windows\Contract.pdb
 D:\Class\Window\Custom_Paint - 2\LineShape\obj\Debug\net7.0-windows\LineShape.csproj.CopyComplete
 D:\Class\Window\Custom_Paint - 2\LineShape\obj\Debug\net7.0-windows\ref\LineShape.dll
 D:\Class\Window\Custom_Paint - 2\LineShape\obj\Debug\net7.0-windows\LineShape.sourcelink.json
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\LineShape\bin\Debug\net7.0-windows\LineShape.deps.json
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\LineShape\bin\Debug\net7.0-windows\LineShape.dll
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\LineShape\bin\Debug\net7.0-windows\LineShape.pdb
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\LineShape\bin\Debug\net7.0-windows\Contract.dll
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\LineShape\bin\Debug\net7.0-windows\Contract.pdb
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\LineShape\obj\Debug\net7.0-windows\LineShape.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\LineShape\obj\Debug\net7.0-windows\LineShape.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\LineShape\obj\Debug\net7.0-windows\LineShape.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\LineShape\obj\Debug\net7.0-windows\LineShape.AssemblyInfo.cs
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\LineShape\obj\Debug\net7.0-windows\LineShape.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\LineShape\obj\Debug\net7.0-windows\LineShape.sourcelink.json
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\LineShape\obj\Debug\net7.0-windows\LineShape.csproj.CopyComplete
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\LineShape\obj\Debug\net7.0-windows\LineShape.dll
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\LineShape\obj\Debug\net7.0-windows\refint\LineShape.dll
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\LineShape\obj\Debug\net7.0-windows\LineShape.pdb
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\LineShape\obj\Debug\net7.0-windows\ref\LineShape.dll

@@ -6,12 +6,16 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Documents;
 using System.Windows.Media;
+using System.Xml.Serialization;
 
 namespace Contract
 {
     public abstract class IShape
     {
+        public UIElement? Preview { get; set; }
 
+        public abstract void ShowAdorner();
+    
         public bool isSelected = false;
         public List<Point>? points { get; set; }
         public double StrokeThickness { get; set; }
@@ -25,6 +29,8 @@ namespace Contract
         public abstract void UpdatePoints(Point newPoint);
         public abstract IShape Clone();
         public abstract UIElement Draw();
+
+        public abstract void HideAdorner();
         public static void RemoveResize(UIElement shape) {
             AdornerLayer adornerLayer = AdornerLayer.GetAdornerLayer(shape);
             Adorner[] adorners = adornerLayer.GetAdorners(shape);

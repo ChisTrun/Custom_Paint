@@ -16,3 +16,21 @@ D:\Class\Window\Custom_Paint - 2\EllipseShape\obj\Debug\net7.0-windows\EllipseSh
 D:\Class\Window\Custom_Paint - 2\EllipseShape\obj\Debug\net7.0-windows\refint\EllipseShape.dll
 D:\Class\Window\Custom_Paint - 2\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.pdb
 D:\Class\Window\Custom_Paint - 2\EllipseShape\obj\Debug\net7.0-windows\ref\EllipseShape.dll
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\EllipseShape\bin\Debug\net7.0-windows\EllipseShape.deps.json
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\EllipseShape\bin\Debug\net7.0-windows\EllipseShape.dll
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\EllipseShape\bin\Debug\net7.0-windows\EllipseShape.pdb
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\EllipseShape\bin\Debug\net7.0-windows\AdornerLib.dll
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\EllipseShape\bin\Debug\net7.0-windows\Contract.dll
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\EllipseShape\bin\Debug\net7.0-windows\AdornerLib.pdb
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\EllipseShape\bin\Debug\net7.0-windows\Contract.pdb
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.AssemblyInfo.cs
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.sourcelink.json
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.csproj.CopyComplete
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.dll
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\EllipseShape\obj\Debug\net7.0-windows\refint\EllipseShape.dll
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\EllipseShape\obj\Debug\net7.0-windows\EllipseShape.pdb
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\EllipseShape\obj\Debug\net7.0-windows\ref\EllipseShape.dll

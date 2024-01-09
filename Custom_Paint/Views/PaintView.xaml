@@ -64,16 +64,36 @@
                 </Fluent:RibbonGroupBox>
             </Fluent:RibbonTabItem>
         </Fluent:Ribbon>
+        
+        
+        <!--Dawing-->
+        
         <Grid Grid.Row="1" x:Name="MainContent">
-            <ItemsControl Panel.ZIndex="{Binding DrawCanvasZIndex}" ItemsSource="{Binding RenderList}" >
+
+            <!--Main Canvas-->
+            <ItemsControl Panel.ZIndex="0" ItemsSource="{Binding RenderList}" >
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
-                        <Canvas  Background="White">
+                        <Canvas  Background="Transparent">
                         </Canvas>
                     </ItemsPanelTemplate>
                 </ItemsControl.ItemsPanel>
             </ItemsControl>
-            <Canvas Panel.ZIndex="{Binding HandleCanvasZIndex}" Background="Transparent"  MouseUp="Canvas_MouseUp" MouseMove="Canvas_MouseMove" MouseDown="Canvas_MouseDown"/>
+
+            <!--Preview Canvas-->
+            <ItemsControl Panel.ZIndex="1" ItemsSource="{Binding RenderList}" >
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Canvas  Background="Transparent">
+                        </Canvas>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+            
+            <!--Handle Canvas-->
+            <Canvas Panel.ZIndex="2" Background="Transparent"  MouseUp="Canvas_MouseUp" MouseMove="Canvas_MouseMove" MouseDown="Canvas_MouseDown"/>
         </Grid>
+        
+        
     </Grid>
 </UserControl>
