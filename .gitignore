@@ -363,6 +363,9 @@ MigrationBackup/
 FodyWeavers.xsd
 
 
-**/obj/*
-**/bin/*
-.vs/**
+/**/obj/**
+/**/bin/**
+/.vs/**
+/AdornerLib/obj/Debug/net7.0-windows/AdornerLib.csproj.AssemblyReference.cache
+/EllipseShape/obj/Debug/net7.0-windows/EllipseShape.csproj.AssemblyReference.cache
+/RectShape/obj/Debug/net7.0-windows/RectShape.csproj.AssemblyReference.cache

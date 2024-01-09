@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "daPZwad90ab46LZAdY8arzOlRmFN8a6/MovV0TtoBJpVFTDN2EmGcXJFigpi6Xk7xaVU5dSSC+sH2u7I5uGvbw==",
+  "dgSpecHash": "R0ImZecwxFp9OXB3g1mXCLhtZ1Q1cHTN9Vdiue4Fg1pLTwpxsK/H048c5D4yOaYhXQeLdXKr+8iIwPZI3FITog==",
   "success": true,
-  "projectFilePath": "D:\\Class\\Window\\Custom_Paint - 2\\AdornerLib\\AdornerLib.csproj",
+  "projectFilePath": "D:\\programin\\Git\\WPF_CustomPaint\\AdornerLib\\AdornerLib.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\USER\\.nuget\\packages\\controlzex\\6.0.0\\controlzex.6.0.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\fluent.ribbon\\10.0.4\\fluent.ribbon.10.0.4.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\controlzex\\6.0.0\\controlzex.6.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\fluent.ribbon\\10.0.4\\fluent.ribbon.10.0.4.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }

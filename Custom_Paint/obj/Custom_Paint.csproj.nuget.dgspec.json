@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Class\\Window\\Custom_Paint - 2\\Custom_Paint\\Custom_Paint.csproj": {}
+    "D:\\programin\\Git\\WPF_CustomPaint\\Custom_Paint\\Custom_Paint.csproj": {}
   },
   "projects": {
-    "D:\\Class\\Window\\Custom_Paint - 2\\AdornerLib\\AdornerLib.csproj": {
+    "D:\\programin\\Git\\WPF_CustomPaint\\AdornerLib\\AdornerLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Class\\Window\\Custom_Paint - 2\\AdornerLib\\AdornerLib.csproj",
+        "projectUniqueName": "D:\\programin\\Git\\WPF_CustomPaint\\AdornerLib\\AdornerLib.csproj",
         "projectName": "AdornerLib",
-        "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\AdornerLib\\AdornerLib.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\Class\\Window\\Custom_Paint - 2\\AdornerLib\\obj\\",
+        "projectPath": "D:\\programin\\Git\\WPF_CustomPaint\\AdornerLib\\AdornerLib.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\programin\\Git\\WPF_CustomPaint\\AdornerLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/xe8r2Wu4yoDi8sVTgJ56Oc4lsRpV3gELgS5XaIGBfpwvpWjyup/api": {}
         },
         "frameworks": {
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\Class\\Window\\Custom_Paint - 2\\Contract\\Contract.csproj": {
-                "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\Contract\\Contract.csproj"
+              "D:\\programin\\Git\\WPF_CustomPaint\\Contract\\Contract.csproj": {
+                "projectPath": "D:\\programin\\Git\\WPF_CustomPaint\\Contract\\Contract.csproj"
               }
             }
           }
@@ -67,24 +67,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Class\\Window\\Custom_Paint - 2\\Contract\\Contract.csproj": {
+    "D:\\programin\\Git\\WPF_CustomPaint\\Contract\\Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Class\\Window\\Custom_Paint - 2\\Contract\\Contract.csproj",
+        "projectUniqueName": "D:\\programin\\Git\\WPF_CustomPaint\\Contract\\Contract.csproj",
         "projectName": "Contract",
-        "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\Contract\\Contract.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\Class\\Window\\Custom_Paint - 2\\Contract\\obj\\",
+        "projectPath": "D:\\programin\\Git\\WPF_CustomPaint\\Contract\\Contract.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\programin\\Git\\WPF_CustomPaint\\Contract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -93,8 +93,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/xe8r2Wu4yoDi8sVTgJ56Oc4lsRpV3gELgS5XaIGBfpwvpWjyup/api": {}
         },
         "frameworks": {
           "net7.0-windows7.0": {
@@ -136,24 +136,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Class\\Window\\Custom_Paint - 2\\Custom_Paint\\Custom_Paint.csproj": {
+    "D:\\programin\\Git\\WPF_CustomPaint\\Custom_Paint\\Custom_Paint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Class\\Window\\Custom_Paint - 2\\Custom_Paint\\Custom_Paint.csproj",
+        "projectUniqueName": "D:\\programin\\Git\\WPF_CustomPaint\\Custom_Paint\\Custom_Paint.csproj",
         "projectName": "Custom_Paint",
-        "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\Custom_Paint\\Custom_Paint.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\Class\\Window\\Custom_Paint - 2\\Custom_Paint\\obj\\",
+        "projectPath": "D:\\programin\\Git\\WPF_CustomPaint\\Custom_Paint\\Custom_Paint.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\programin\\Git\\WPF_CustomPaint\\Custom_Paint\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -162,18 +162,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/xe8r2Wu4yoDi8sVTgJ56Oc4lsRpV3gELgS5XaIGBfpwvpWjyup/api": {}
         },
         "frameworks": {
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\Class\\Window\\Custom_Paint - 2\\AdornerLib\\AdornerLib.csproj": {
-                "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\AdornerLib\\AdornerLib.csproj"
+              "D:\\programin\\Git\\WPF_CustomPaint\\AdornerLib\\AdornerLib.csproj": {
+                "projectPath": "D:\\programin\\Git\\WPF_CustomPaint\\AdornerLib\\AdornerLib.csproj"
               },
-              "D:\\Class\\Window\\Custom_Paint - 2\\Contract\\Contract.csproj": {
-                "projectPath": "D:\\Class\\Window\\Custom_Paint - 2\\Contract\\Contract.csproj"
+              "D:\\programin\\Git\\WPF_CustomPaint\\Contract\\Contract.csproj": {
+                "projectPath": "D:\\programin\\Git\\WPF_CustomPaint\\Contract\\Contract.csproj"
               }
             }
           }
@@ -220,7 +220,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

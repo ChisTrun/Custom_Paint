@@ -29,3 +29,18 @@ D:\Class\Window\Custom_Paint - 2\LineShape\bin\Debug\net7.0-windows\Contract.pdb
 D:\Class\Window\Custom_Paint - 2\LineShape\obj\Debug\net7.0-windows\LineShape.csproj.CopyComplete
 D:\Class\Window\Custom_Paint - 2\LineShape\obj\Debug\net7.0-windows\ref\LineShape.dll
 D:\Class\Window\Custom_Paint - 2\LineShape\obj\Debug\net7.0-windows\LineShape.sourcelink.json
+D:\programin\Git\WPF_CustomPaint\LineShape\bin\Debug\net7.0-windows\LineShape.deps.json
+D:\programin\Git\WPF_CustomPaint\LineShape\bin\Debug\net7.0-windows\LineShape.dll
+D:\programin\Git\WPF_CustomPaint\LineShape\bin\Debug\net7.0-windows\LineShape.pdb
+D:\programin\Git\WPF_CustomPaint\LineShape\bin\Debug\net7.0-windows\Contract.dll
+D:\programin\Git\WPF_CustomPaint\LineShape\bin\Debug\net7.0-windows\Contract.pdb
+D:\programin\Git\WPF_CustomPaint\LineShape\obj\Debug\net7.0-windows\LineShape.csproj.AssemblyReference.cache
+D:\programin\Git\WPF_CustomPaint\LineShape\obj\Debug\net7.0-windows\LineShape.GeneratedMSBuildEditorConfig.editorconfig
+D:\programin\Git\WPF_CustomPaint\LineShape\obj\Debug\net7.0-windows\LineShape.AssemblyInfoInputs.cache
+D:\programin\Git\WPF_CustomPaint\LineShape\obj\Debug\net7.0-windows\LineShape.AssemblyInfo.cs
+D:\programin\Git\WPF_CustomPaint\LineShape\obj\Debug\net7.0-windows\LineShape.csproj.CoreCompileInputs.cache
+D:\programin\Git\WPF_CustomPaint\LineShape\obj\Debug\net7.0-windows\LineShape.csproj.CopyComplete
+D:\programin\Git\WPF_CustomPaint\LineShape\obj\Debug\net7.0-windows\LineShape.dll
+D:\programin\Git\WPF_CustomPaint\LineShape\obj\Debug\net7.0-windows\refint\LineShape.dll
+D:\programin\Git\WPF_CustomPaint\LineShape\obj\Debug\net7.0-windows\LineShape.pdb
+D:\programin\Git\WPF_CustomPaint\LineShape\obj\Debug\net7.0-windows\ref\LineShape.dll

@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RectShape", "RectShape\Rect
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdornerLib", "AdornerLib\AdornerLib.csproj", "{81724B6E-90FE-42AA-B368-34EBF06FA166}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EllipseShape", "EllipseShape\EllipseShape.csproj", "{6F2959FF-E26A-4781-AB4B-D3B8ACAF3E4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EllipseShape", "EllipseShape\EllipseShape.csproj", "{6F2959FF-E26A-4781-AB4B-D3B8ACAF3E4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

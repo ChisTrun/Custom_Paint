@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Zs9ZOw/SGpcpBwCuTvEW0WD+PN34mDNHRKco5XWplP8y5SUcr4e6DpVNHiUs11t4KaDt4dF7PJ4KGVQ7J7F2wA==",
+  "dgSpecHash": "Sx73MlsO90vqRIbEZkdsHUEsbP3w3uuk9xwpYpUqGmLuAzj3bae4t3ua08xZfqZy6dxsq28JaifgOTKW8VY3ow==",
   "success": true,
-  "projectFilePath": "D:\\Class\\Window\\Custom_Paint - 2\\RectShape\\RectShape.csproj",
+  "projectFilePath": "D:\\programin\\Git\\WPF_CustomPaint\\RectShape\\RectShape.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\USER\\.nuget\\packages\\controlzex\\6.0.0\\controlzex.6.0.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\fluent.ribbon\\10.0.4\\fluent.ribbon.10.0.4.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\controlzex\\6.0.0\\controlzex.6.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\fluent.ribbon\\10.0.4\\fluent.ribbon.10.0.4.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }
