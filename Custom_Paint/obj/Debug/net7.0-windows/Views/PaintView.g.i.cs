@@ -76,7 +76,7 @@ namespace Custom_Paint.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Custom_Paint;V1.0.0.0;component/views/paintview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Custom_Paint;component/views/paintview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\PaintView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

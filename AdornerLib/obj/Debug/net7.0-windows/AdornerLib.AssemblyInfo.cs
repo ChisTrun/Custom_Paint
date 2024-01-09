@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdornerLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6986c79d0a16d698fa0f81ac78c4110a0b302bd6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17ce41c9bfcdb639b8f5750fcb90cec78c00b8c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdornerLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdornerLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
