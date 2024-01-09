@@ -71,7 +71,7 @@
         <Grid Grid.Row="1" x:Name="MainContent">
 
             <!--Main Canvas-->
-            <ItemsControl Panel.ZIndex="0" ItemsSource="{Binding RenderList}" >
+            <ItemsControl Panel.ZIndex="1" ItemsSource="{Binding RenderList}" >
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
                         <Canvas  Background="Transparent">
@@ -90,7 +90,6 @@
                 </ItemsControl.ItemsPanel>
             </ItemsControl>-->
 
-            <Canvas Panel.ZIndex="1" Background="Transparent" x:Name="PreviewCanvas"/>
 
             <!--Handle Canvas-->
             <Canvas Panel.ZIndex="2" Background="Transparent"  MouseUp="Canvas_MouseUp" MouseMove="Canvas_MouseMove" MouseDown="Canvas_MouseDown"/>

@@ -127,6 +127,39 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "EllipseShape/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AdornerLib": "1.0.0",
+          "Contract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EllipseShape.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EllipseShape.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "LineShape/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Contract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LineShape.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LineShape.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "RectShape/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -292,6 +325,16 @@
       "path": "../Contract/Contract.csproj",
       "msbuildProject": "../Contract/Contract.csproj"
     },
+    "EllipseShape/1.0.0": {
+      "type": "project",
+      "path": "../EllipseShape/EllipseShape.csproj",
+      "msbuildProject": "../EllipseShape/EllipseShape.csproj"
+    },
+    "LineShape/1.0.0": {
+      "type": "project",
+      "path": "../LineShape/LineShape.csproj",
+      "msbuildProject": "../LineShape/LineShape.csproj"
+    },
     "RectShape/1.0.0": {
       "type": "project",
       "path": "../RectShape/RectShape.csproj",
@@ -302,7 +345,9 @@
     "net7.0-windows7.0": [
       "AdornerLib >= 1.0.0",
       "Contract >= 1.0.0",
+      "EllipseShape >= 1.0.0",
       "Fluent.Ribbon >= 10.0.4",
+      "LineShape >= 1.0.0",
       "Microsoft.Xaml.Behaviors.Wpf >= 1.1.77",
       "PropertyChanged.Fody >= 4.1.0",
       "RectShape >= 1.0.0"
@@ -346,6 +391,12 @@
             },
             "C:\\Users\\USER\\Desktop\\Paint_Project\\Custom_Paint\\Contract\\Contract.csproj": {
               "projectPath": "C:\\Users\\USER\\Desktop\\Paint_Project\\Custom_Paint\\Contract\\Contract.csproj"
+            },
+            "C:\\Users\\USER\\Desktop\\Paint_Project\\Custom_Paint\\EllipseShape\\EllipseShape.csproj": {
+              "projectPath": "C:\\Users\\USER\\Desktop\\Paint_Project\\Custom_Paint\\EllipseShape\\EllipseShape.csproj"
+            },
+            "C:\\Users\\USER\\Desktop\\Paint_Project\\Custom_Paint\\LineShape\\LineShape.csproj": {
+              "projectPath": "C:\\Users\\USER\\Desktop\\Paint_Project\\Custom_Paint\\LineShape\\LineShape.csproj"
             },
             "C:\\Users\\USER\\Desktop\\Paint_Project\\Custom_Paint\\RectShape\\RectShape.csproj": {
               "projectPath": "C:\\Users\\USER\\Desktop\\Paint_Project\\Custom_Paint\\RectShape\\RectShape.csproj"

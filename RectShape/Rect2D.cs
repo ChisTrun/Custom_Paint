@@ -34,7 +34,6 @@ namespace RectShape
             var _height = points[1].Y - points[0].Y;
             if (_width < 0) deltaX = _width;
             if (_height < 0) deltaY = _height;
-
             this.centerX = _width / 2;
             this.centerY = _height / 2;
 
@@ -49,18 +48,8 @@ namespace RectShape
             };
             Canvas.SetTop(rect, points[0].Y + deltaY);
             Canvas.SetLeft(rect, points[0].X + deltaX);
-            //rect.Loaded += RectLoaded;
-            //rect.MouseLeftButtonDown += RectClick;
             this.Preview = rect;
             return Preview;
-        }
-
-        private void RectLoaded(object sender, RoutedEventArgs e)
-        {
-            this.isSelected = true;
-            var rect = sender as UIElement;
-            var a = AdornerLayer.GetAdornerLayer(VisualTreeHelper.GetParent(rect) as UIElement);
-            a.Add(new RectResize(rect, this));
         }
 
         public override void UpdatePoints(Point newPoint)
@@ -81,12 +70,14 @@ namespace RectShape
                         adornerLayer.Remove(adorner);
                     }
                 }
+                this.isSelected = false;    
             }
 
         }
         public override void ShowAdorner()
         {
             if(this.Preview != null) {
+                this.isSelected = true;
                 AdornerLayer.GetAdornerLayer(VisualTreeHelper.GetParent(this.Preview) as UIElement).Add(new RectResize(this.Preview, this));
             }
         }

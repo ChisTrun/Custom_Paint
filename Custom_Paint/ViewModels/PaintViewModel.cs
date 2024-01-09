@@ -21,25 +21,26 @@ namespace Custom_Paint.ViewModels
 
         private void GetShapeButton()
         {
-            //string folder = AppDomain.CurrentDomain.BaseDirectory + "ShapeLib\\";
-            //var shapeAbilities = DllReader<IShape>.GetAbilities(folder);
+            string folder = AppDomain.CurrentDomain.BaseDirectory + "ShapeLib\\";
+            var shapeAbilities = DllReader<IShape>.GetAbilities(folder);
 
-            //foreach (var abilities in shapeAbilities)
-            //{
-            //    Factory.prototypes.Add(abilities.Name,abilities);
-            //    Fluent.Button button = new Fluent.Button() {
-            //        Header = abilities.Icon,
-            //        Tag = abilities.Name,
-            //    };
-            //    button.Click += ShapeButtonClick;
-            //    ListShapeButton.Add(button);
-            //}
+            foreach (var abilities in shapeAbilities)
+            {
+                Factory.prototypes.Add(abilities.Name, abilities);
+                Fluent.Button button = new Fluent.Button()
+                {
+                    Header = abilities.Icon,
+                    Tag = abilities.Name,
+                };
+                button.Click += ShapeButtonClick;
+                ListShapeButton.Add(button);
+            }
         }
 
         private void ShapeButtonClick(object sender, RoutedEventArgs e)
         {
-            //var control = (Fluent.Button)sender;
-            //Preview = Factory.CreateShape((string)control.Tag);
+            var control = (Fluent.Button)sender;
+            Preview = Factory.CreateShape((string)control.Tag);
         }
 
         //public UIElement? _selectedElement = null;

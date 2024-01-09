@@ -108,3 +108,7 @@ C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Custom_Paint\obj\Debug\net7.0-w
 C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Custom_Paint\obj\Debug\net7.0-windows\ref\Custom_Paint.dll
 C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\RectShape.dll
 C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\RectShape.pdb
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\EllipseShape.dll
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\LineShape.dll
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\EllipseShape.pdb
+C:\Users\USER\Desktop\Paint_Project\Custom_Paint\Custom_Paint\bin\Debug\net7.0-windows\LineShape.pdb

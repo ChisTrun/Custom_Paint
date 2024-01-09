@@ -31,17 +31,17 @@ namespace Contract
         public abstract UIElement Draw();
 
         public abstract void HideAdorner();
-        public static void RemoveResize(UIElement shape) {
-            AdornerLayer adornerLayer = AdornerLayer.GetAdornerLayer(shape);
-            Adorner[] adorners = adornerLayer.GetAdorners(shape);
-            if (adorners != null)
-            {
-                foreach (Adorner adorner in adorners)
-                {
-                    adornerLayer.Remove(adorner);
-                }
-            }
-        }
+        //public static void RemoveResize(UIElement shape) {
+        //    AdornerLayer adornerLayer = AdornerLayer.GetAdornerLayer(shape);
+        //    Adorner[] adorners = adornerLayer.GetAdorners(shape);
+        //    if (adorners != null)
+        //    {
+        //        foreach (Adorner adorner in adorners)
+        //        {
+        //            adornerLayer.Remove(adorner);
+        //        }
+        //    }
+        //}
 
     }
 }

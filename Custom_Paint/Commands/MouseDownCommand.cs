@@ -25,7 +25,6 @@ namespace Custom_Paint.Commands
             {
                 item.HideAdorner();
             }
-            _viewModel.Preview = new Rect2D(); // test
             if (_viewModel.Preview != null && parameter != null)
             {
                 _viewModel.IsDrawing = true;

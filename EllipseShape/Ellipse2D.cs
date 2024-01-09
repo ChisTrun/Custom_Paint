@@ -37,25 +37,18 @@ namespace EllipseShape
             {
                 Width = Math.Abs(_width),
                 Height = Math.Abs(_height),
-                Stroke = Brushes.Black,
+                Stroke = this.StrokeColor,
                 StrokeThickness = this.StrokeThickness,
                 Fill = this.Fill,
                 RenderTransform = new RotateTransform(this.Angle, this.centerX, this.centerY)
             };
             Canvas.SetTop(ellipse, points[0].Y + deltaY);
             Canvas.SetLeft(ellipse, points[0].X + deltaX);
-            ellipse.MouseLeftButtonDown += EllipseClick;
             this.Preview = ellipse;
             return this.Preview;
         }
 
-        private void EllipseLoaded(object sender, RoutedEventArgs e)
-        {
-            this.isSelected = true;
-            var ellipse = sender as UIElement;
-            var a = AdornerLayer.GetAdornerLayer(VisualTreeHelper.GetParent(ellipse) as UIElement);
-            a.Add(new RectResize(ellipse, this));
-        }
+    
 
         public override void UpdatePoints(Point newPoint)
         {
@@ -64,12 +57,29 @@ namespace EllipseShape
 
         public override void ShowAdorner()
         {
-            throw new NotImplementedException();
+            if (this.Preview != null)
+            {
+                this.isSelected = true;
+                AdornerLayer.GetAdornerLayer(VisualTreeHelper.GetParent(this.Preview) as UIElement).Add(new RectResize(this.Preview, this));
+            }
+            
         }
 
         public override void HideAdorner()
         {
-            throw new NotImplementedException();
+            if (this.Preview != null)
+            {
+                AdornerLayer adornerLayer = AdornerLayer.GetAdornerLayer(this.Preview);
+                Adorner[] adorners = adornerLayer.GetAdorners(this.Preview);
+                if (adorners != null)
+                {
+                    foreach (Adorner adorner in adorners)
+                    {
+                        adornerLayer.Remove(adorner);
+                    }
+                }
+                this.isSelected = false;
+            }
         }
     }
 

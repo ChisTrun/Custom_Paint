@@ -35,6 +35,7 @@ namespace Custom_Paint.Commands
                 foreach (IShape shape in _viewModel.ShapeList)
                 {
                     _viewModel.RenderList.Add(shape.Draw());
+                    if(shape.isSelected) shape.ShowAdorner();
                 }
             }
         }
